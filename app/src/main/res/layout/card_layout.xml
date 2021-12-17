@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:translationZ="1dp">
+    <ImageView
+        android:alpha="0"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="00dp"
+        android:id="@+id/card_front"
+        android:background="@drawable/c01"
+        android:scaleType="fitXY"
+        android:layout_width="100dp"
+        android:layout_height="150dp"/>
+
+    <ImageView
+        android:alpha="1"
+        android:clickable="false"
+        android:id="@+id/card_back"
+        android:src="@drawable/bb"
+        android:scaleType="fitXY"
+        android:layout_width="100dp"
+        android:layout_height="150dp"/>
+</RelativeLayout>
